@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KOFYPOINT : Booking</title>
+    <link rel="stylesheet" href="booking.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Pacifico&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <!-- HEADER  -->
+    <header>
+        <div class="div1">
+
+            <nav class="navbar">
+                <ul>
+                    <li><a href="./Home.html">Home</a></li>
+                    <li><a href="./bookig.html">Booking</a></li>
+                    <h3 id="logo"><img src="./image/Coffee Shop logo (1)2.png" alt=""></h3>
+                    <li><a href="./about.html">About</a></li>
+                    <li><a href="./contact.html">Contact</a></li>
+                    <li><a href="./Login.html"><i class="fa-solid fa-user"></i></a></li>
+                </ul>
+            </nav>
+
+        </div>
+    </header>
+
+    <!-- SECTION 1 RESERVE NOW IMAGE -->
+
+    <section class="section_reserve">
+        <div class="resb">
+            <div class="booknowhead">RESERVE NOW !! </div>
+            <div class="descbook">"Ready to make your reservation? Book now and secure your spot for an unforgettable
+                experience! Simply
+                click the link below to reserve your place today. Don't miss out on this opportunity!"</div>
+        </div>
+    </section>
+
+
+    <!-- SECTION 2 BOOKING FORM -->
+
+    <section class="section_booknow">
+        <div class="booknow">
+            <div class="booknowtext">
+                <h1>BOOKING NOW !!</h1>
+            </div>
+            <div class="booknow_subheading">
+                Simply select your desired date, time, and party size, and leave the rest to us. Get ready to indulge in
+                exquisite flavors, impeccable service, and unforgettable moments as you embark on a culinary journey
+                like no other.
+            </div>
+        </div>
+
+        <!-- BOOKING FORM  -->
+
+        <div class="booknow_form">
+
+            <!-- DATE DAY GUEST  -->
+
+            <form action="">
+                <div class="date_time">
+                    <Div class="date">
+                        <label for="booking_date">Select Date</label>
+                        <input type="date" placeholder="DD/MM//YY" id="booking_date" name="booking_date" required><br>
+
+                    </Div>
+
+                    <div class="time">
+                        <label for="booking_time">Select Time</label>
+                        <input type="time" id="booking_time" name="booking_time" placeholder="hgf" required><br>
+                    </div>
+                    <div class="guests">
+                        <label for="no_of_guests">No. of Guests</label>
+                        <input type="number" id="no_of_guests" name="no_of_guests" placeholder="e.g: 5" required><br>
+                    </div>
+                </div>
+
+                <!-- DETAILS FORM  -->
+
+                <div class="details_form">
+
+                    <div>
+                        <h1>
+                            Enter Your Details
+                        </h1>
+                    </div>
+                    <div class="form_main">
+                        <input type="text" placeholder="Your Name" id="name" name="fname" class="form_blanks"
+                            required><br>
+                        <input type="email" placeholder="Your Email" id="email" name="email" class="form_blanks"
+                            required><br>
+                        <input type="number" placeholder="Your Phone" id="Phone" name="Phone" class="form_blanks"
+                            pattern="[0-9]{10}" required><br>
+                    </div>
+                    <div class="submit_btn">
+                        <button type="submit" id="Submit_btnn">Submit Form</button>
+                    </div>
+
+                </div>
+
+
+            </form>
+
+        </div>
+    </section>
+
+    <!-- FOOTER  -->
+
+    <section class="lastSec">
+        <footer>
+            <div class="footcontainer">
+                <div class="footcontent">
+                    <div>
+                        <h3>Our Location</h3>
+                        <p>ST.ANDREWS INSTITUTE OF</p>
+                        <p> TECHNOLOGY & MANAGEMENT</p>
+                        <P>GURUGAON-DEHLI(NCR)</P>
+                    </div>
+                </div>
+                <div class="footcontent" id="ftImg">
+                    <img src="./imgs/Coffee Shop logo (1)2.png" alt="">
+                </div>
+                <div class="footcontent">
+                    <a href="#" class="icon"><i class="fa-brands fa-square-facebook"></i></a>
+                    <a href="#" class="icon"><i class="fa-brands fa-square-twitter"></i></a>
+                    <a href="#" class="icon"><i class="fa-brands fa-square-instagram"></i></a>
+                    <a href="#" class="icon"><i class="fa-brands fa-square-whatsapp"></i></a>
+                    <a href="#" class="icon"><i class="fa-brands fa-square-snapchat"></i></a>
+                </div>
+            </div>
+        </footer>
+    </section>
+
+
+
+</body>
+
+</html>

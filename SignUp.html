@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="X-UA-Conptible" content="ie=edge">
+    <title>KOFYPOINT : SignUp</title>
+    <link rel="stylesheet" href="SignUp.css">
+    <style>
+      
+    </style>
+</head>
+
+<body>
+    <form action="">
+        <h1 style="text-align: center;">SignUp</h1>
+        <fieldset>
+            <div class="container">
+                <label for="Name">Name <code class="code1">*</code></label><br>
+                <div>
+                    <input type="text" id="name" name="name" placeholder="Username" required>
+                </div>
+            </div>
+            <div class="container">
+                <label for="zipcode">Zip-Code<Code class="code1">*</Code></label><br>
+                <div class="inbox">
+                    <input type="number" id="zipcode" name="zipcode" placeholder="123456" pattern="[0-9]{6}">
+                    <!-- <p><code class="c2">First</code></p> -->
+                </div>
+                <!-- <div class="inbox">
+                    <input type="text" id="lname" name="fatherName" required><br>
+                    <p><code class="c2">Last</code></p>
+                </div> -->
+            </div>
+            <div class="container">
+                <label for="address">Address</label><br>
+                <div class="input1">
+                    <input type="text" id="address" name="address" placeholder="Abc,city" required>
+                </div>
+            </div>
+            <div class="container">
+                <label for="phone">Phone <code class="code1">*</code></label><br>
+                <div class="input1">
+                    <input type="number" id="phone" name="phone" placeholder="+91">
+                </div>
+            </div>
+            <div class="container">
+                <label for="email">Email <code class="code1">*</code></label><br>
+                <div class="input1">
+                    <input type="email" name="email" id="email" placeholder="abc@gmail" required>
+                </div>
+            </div>
+            <div class="container">
+                <label for="password">Password <code class="code1">*</code></label><br>
+                <div class="input1">
+                    <input type="password" id="password" name="password" pattern="[0-9,A-Z,a-z]" placeholder="********">
+                </div>
+            </div>
+            <div class="container">
+                <div id="btn">
+                    <button type="submit">Submit</button>
+                </div>
+            </div>
+        </fieldset>
+    </form>
+</body>
+
+</html>

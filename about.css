@@ -1,0 +1,168 @@
+html {
+    scroll-behavior: smooth;
+}
+/* .... HEADER ..... */
+header {
+    background-color: #11696F;
+    height: 130px;
+    color: #ffffff;
+    border: white solid;
+}
+
+/* ..... NAVIGATION BAR ....... */
+.navbar {
+    width: 100%;
+    font-size: 20px;
+}
+
+.navbar ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 0%;
+    margin-bottom: 2%;
+}
+
+.navbar ul li {
+    list-style: none;
+
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: white;
+
+}
+
+/* LOGO  */
+#logo IMG {
+    height: 100px;
+    border-radius: 20px;
+}
+
+/* ABOUT HEAD SEC 1  */
+.section_about {
+    background-color: #11696F;
+}
+
+.aboutushead {
+
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 100px;
+    text-align: center;
+    padding-top: 150px;
+    text-shadow: #18191B;
+
+}
+
+.desaboutus {
+    color: rgb(255, 255, 255);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    width: 50%;
+    margin: auto;
+    padding-bottom: 100px;
+}
+
+
+/* ABOUT BOX  */
+
+.memberboxes {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.member_box {
+    border: #11696F solid;
+
+    padding: 10px 10px 10px 10px;
+    margin: 5px 5px 5px 5px;
+}
+
+.member_img {
+    width: 200px;
+    height: 200px;
+    padding: 5px 5px 5px 5px;
+    margin-left: 30px;
+
+}
+
+.member_name {
+    text-align: center;
+    font-family: 'Franpxklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+    font-weight: 900;
+}
+
+.member_title {
+    text-align: center;
+}
+
+.member_desc {
+   
+    text-align: center;
+    justify-content: center;
+    
+}
+.md{
+    color: #000000;
+}
+
+
+/* FOOTER CSS  */
+
+.lastsec {
+    display: inline-block;
+    position: fixed;
+    top: 23px;
+
+}
+
+footer {
+    width: 100%;
+}
+
+.footcontainer {
+    background-color: #106a70;
+    border: 2px solid gray;
+    height: 200px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+.footcontent {
+    margin: 2em 0em 2em 0em;
+    display: flex;
+    gap: 20px;
+}
+
+h3,
+p {
+    color: white;
+}
+
+.footcontent a {
+    text-decoration: none;
+    color: white;
+
+}
+
+.icon {
+    margin: 2px 0px 0px 0px;
+}
+
+.footcontent a i {
+    padding: 35px 0px;
+    row-gap: 2px;
+}
+
+#ftImg {
+    box-shadow: #18191b;
+
+}

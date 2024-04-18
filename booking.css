@@ -1,0 +1,196 @@
+html {
+    scroll-behavior: smooth;
+}
+/* .... HEADER ..... */
+header {
+    background-color: #11696F;
+    height: 150px;
+    color: #ffffff;
+    border: white solid;
+}
+
+/* ..... NAVIGATION BAR ....... */
+.navbar {
+    width: 100%;
+    font-size: 20px;
+}
+
+.navbar ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 0%;
+    margin-bottom: 2%;
+}
+
+.navbar ul li {
+    list-style: none;
+
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: white;
+
+}
+
+/* LOGO  */
+#logo IMG {
+    height: 100px;
+    border-radius: 20px;
+}
+
+.section_reserve {
+    background-color: #11696F;
+
+}
+
+
+/* RESERVE NOW BOOK  */
+.booknowhead {
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 100px;
+    text-align: center;
+    padding-top: 150px;
+    text-shadow: #18191B;
+
+}
+
+.descbook {
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    width: 50%;
+    margin: auto;
+    padding-bottom: 100px;
+}
+
+.booknow_form {
+
+    color: rgb(255, 255, 255);
+}
+
+.section_booknow {
+    display: flex;
+    flex-direction: row;
+    background-color: #18191B;
+}
+
+.booknow {
+    width: 40%;
+    padding: 10px;
+    color: white;
+}
+
+.booknowtext {
+    color: aqua;
+}
+
+.booknow_form {
+    width: 60%;
+    padding: 50px;
+}
+
+.date_time {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+.form_main {
+    display: flex;
+    flex-direction: column;
+    width: 50vh;
+    border-style: none;
+    border-color: aqua;
+
+}
+
+.submit_btn {
+    padding-left: 20px;
+
+}
+
+input {
+    background-color: #18191B;
+    border: aqua;
+    border-style: solid;
+    border-radius: 5px;
+    padding: 5px;
+    color: #ffffff;
+}
+
+::placeholder {
+    color: #ffffff;
+}
+
+
+#Submit_btnn {
+    background-color: #11696F;
+    color: #ffffff;
+    border-radius: 20px;
+    overflow: hidden;
+    border-style: none;
+    padding: 10px;
+    width: 20%;
+}
+
+/* FOOTER CSS  */
+
+.lastsec {
+    display: inline-block;
+    position: fixed;
+    top: 23px;
+
+}
+
+footer {
+    width: 100%;
+}
+
+.footcontainer {
+    background-color: #106a70;
+    border: 2px solid gray;
+    height: 200px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+
+.footcontent {
+    margin: 2em 0em 2em 0em;
+    display: flex;
+    gap: 20px;
+}
+
+h3,
+p {
+    color: white;
+}
+
+.footcontent a {
+    text-decoration: none;
+    color: white;
+
+}
+
+.icon {
+    margin: 2px 0px 0px 0px;
+}
+
+.footcontent a i {
+    padding: 35px 0px;
+    row-gap: 2px;
+}
+
+#ftImg {
+    box-shadow: #18191b;
+
+}

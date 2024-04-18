@@ -1,0 +1,243 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(26, 13, 8);
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* .... HEADER ..... */
+header {
+    background-image: url(./image/header.bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+}
+
+/* ..... NAVIGATION BAR ....... */
+.navbar {
+    display: flex;
+    flex-direction: row;
+    height: 626px;
+    width: 100%;
+}
+
+#logo img {
+    height: 80px;
+    border-radius: 20px;
+    margin-top: -17%;
+    margin-bottom: 2px;
+}
+
+.hero {
+    border: 2px solid green;
+    height: 10px;
+    width: 10px;
+}
+
+.navbar ul {
+    display: flex;
+    flex-direction: row;
+    margin: 0em 17em;
+    margin-top: 6em;
+    padding: 0em 0em;
+}
+
+.navbar ul li {
+    list-style: none;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    margin: 0px 15px;
+    color: aliceblue;
+    padding: 10px;
+}
+
+.discription {
+    height: 145px;
+    width: 285px;
+    position: absolute;
+    text-align: center;
+    margin: -25% 0% 0% 69%;
+    border: 2px solid aqua;
+    border-style: none;
+    border-radius: 20px;
+}
+
+.discription h2 {
+    font-family: "Dancing Script", cursive;
+    color: #62e2f2;
+}
+
+.discription h2 span {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: solid;
+    text-align: left;
+    color: white;
+
+}
+
+.discription button {
+    border-radius: 20px;
+    width: 90px;
+    font-size: 9px;
+    margin: 7px 6px 5px 50px;
+    padding: 4px 15px;
+    text-align: center;
+    border-style: none;
+}
+
+/*..... MAIN ...... */
+.section1 {
+    background-image: url(./image/sec.1.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 450px;
+    background: #18191b;
+    box-shadow: inset -5px -5px rgba(0, 0, 0, 0.314);
+    margin-top: 10%;
+    border-radius:20px ;
+}
+
+.item {
+    /* border: 2px solid red; */
+    height: 302px;
+    width: 48%;
+    margin: 12px auto;
+    padding: 37px 75px;
+    text-align: center;
+    border-style: none;
+    background-color: #18191b;
+}
+
+#div2 img {
+    width: 23em;
+    border-radius: 10px;
+}
+
+.maindiv {
+    display: flex;
+    flex-direction: row;
+}
+
+.s1 {
+    font-family: "Dancing Script", cursive;
+    color: aqua !important;
+    font-weight: 200;
+    font-size: 100px;
+    line-height: 1.3em
+}
+
+.s2 {
+    color: white;
+    font-weight: bold;
+    letter-spacing: 10px;
+    margin: 0;
+    line-height: 40px;
+    border: solid 1px rgba(0, 0, 0, .5);
+    border-left: none;
+    border-right: none;
+    display: inline-block;
+}
+
+p.lead {
+    font-size: 12px;
+    color: whitesmoke;
+    font-weight: 500;
+}
+
+#div3 {
+    display: flex;
+    flex-direction: row;
+    background-color: #18191b;
+}
+
+.flex {
+    height: 200px;
+    width: 33%;
+    margin: 1px auto;
+    padding: -3px 25px;
+    text-align: center;
+    border-style: none;
+    /* background-color: #18191b; */
+}
+
+.flex h3 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+}
+
+.flex p {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: whitesmoke;
+}
+
+.flex button {
+    border-style: none;
+    border-radius: 20px;
+    width: 8em;
+    margin: 9px 0px;
+    background-color: burlywood;
+}
+
+#flexbox {
+    border: 1px solid burlywood;
+    border-top: none;
+    border-bottom: none;
+}
+/* ..... FOOTER ...... */
+.lastsec {
+    display: inline-block;
+    position: fixed;
+    top: 23px;
+}
+
+footer {
+    margin-top: 12%;
+    width: 100%;
+}
+
+.footcontainer {
+    background-color: #106a70;
+    border: 2px solid gray; 
+    height: 200px;
+    width: 196vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 78px auto;
+}
+
+.footcontent {
+    margin: 2em 0em 2em 0em;
+    display: flex;
+    gap: 20px;
+}
+
+h3,p {
+    color: white;
+}
+
+.footcontent a {
+    text-decoration: none;
+    color: white;
+
+}
+
+.icon {
+    margin: 2px 0px 0px 0px;
+}
+
+.footcontent a i {
+    padding: 35px 0px;
+    row-gap: 2px;
+}

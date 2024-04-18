@@ -1,0 +1,109 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    background-image: url(./image/bg7.jpg);
+    background-repeat: no-repeat;
+    background-position: center left;
+    background-size: cover;
+}
+
+form {
+    /* margin: 50px 300px 0px 100px; */
+    /* border: 2pxsolid black;  */
+    width: 48%;
+    margin: 30px auto;
+    margin-bottom: -4%;
+    background-color: rgb(44, 21, 5, 0.5);
+    border-radius: 12px;
+    background: transparent;
+    background-color: rgba(48, 19, 21, 0.5);
+    box-shadow: inset -5px -5px rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(15px);
+
+}
+
+fieldset {
+    border-style: none;
+    width: auto;
+    margin: 0px 0px 0px 130px;
+
+}
+
+.container {
+    display: block;
+    margin: 10px 5px 10px 5px;
+    padding: 3px 0px 5px 0px
+}
+
+label {
+    color: aqua;
+    margin-top: 2px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.code1 {
+    color: rgb(183, 79, 79);
+}
+
+.inbox {
+    display: inline-table;
+}
+
+/* step 1 (rest) */
+input {
+    height: 40px;
+    width: 86%;
+    margin-right: 8px;
+    border-style: none;
+    background-color: #e1e8f6;
+    background: transparent;
+    border: 1px solid rgb(20, 12, 7);
+    border-radius: 8px;
+}
+
+/* step 2 (active) */
+input:active {
+    height: 40px;
+    width: 86%;
+    margin-right: 8px;
+    background: transparent;
+    border: 1px solid rgb(50, 27, 12);
+    border-radius: 8px;
+    /* border-style: none;
+    overflow: hidden; */
+}
+
+select {
+    height: 40px;
+    width: 325px;
+    background-color: #e1e8f6;
+    border-radius: 8px;
+    border-style: none;
+}
+
+textarea {
+    height: auto;
+    background-color: #e1e8f6;
+    border-radius: 8px;
+    border-style: none;
+}
+
+button {
+    height: 50px;
+    width: 200px;
+    font-size: 25px;
+    background-color: aqua;
+    border-color: white;
+    border-radius: 10px;
+    color: rgb(44, 21, 5);
+    border-style: none;
+}
+
+button:hover {
+    transition: 50ms;
+    background-color: aqua;
+    color: rgb(208, 21, 21);
+}
